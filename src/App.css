@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.header{
+  width: 100%;
+  height: 35vh;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #B00020;
+}
+
+.heading{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+
+.heading h1{
+  color: #fff;
+  font-size: 150px;
+  padding: 5px 10px 5px 10px;
+}
+
+.heading h1 span{
+  display: inline;
+  line-height: normal;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading p{
+  color: #fff;
+  text-align: right;
+}
+
+.headerpart2{
+  width: 100%;
+  height: 65vh;
+
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.didyouknow{
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  /* margin-top: 100px; */
+  margin-bottom: 30px;
+
+}
+
+.didyouknow h1{
+  color: #B00020;
+  font-size: 40px;
+
+  margin-bottom: 20px;
+}
+
+.didyouknow p{
+  width: 90%;
+  font-size: 20px;
+  text-align: center;
+
+  color: #334155;
+
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: 400;
+}
+
+
+.bionicimg{
+  width: 640px;
+  /* height: 360px; */
+  height: 400px;
+  border: 5px solid white;
+}
+
+.main{
+  height: 100vh;
+  width: 100%;
+
+  /* background-color: #B8E8FC; */
+  background-color: #B00020;
+
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainabout{
+  width: 45%;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.mainaboutinside{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  /* align-items:flex-start; */
+  /* justify-content: left; */
+}
+
+
+.mainaboutinside h1{
+  /* color: #B00020; */
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
+.mainabout p{
+  /* color: #000; */
+  /* color: #1e2422; */
+  /* color: #F8FFDB; */
+  color: #fef9c3;
+  text-align: justify;
+
+  font-size: 18px;
+  padding: 10px 10px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainimg{
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainimg img{
+  border-radius: 10px;
+}
+
+.workingsection{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  background-color: #fff;
+}
+
+.inputarea{
+  height: 40vh;
+  width: 100%;
+  /* background-color: #61dafb; */
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputarea h1{
+  color: #B00020;
+  margin-bottom: 30px;
+}
+
+.inputarea input{
+  height: 50px;
+  width: 1000px;
+  background-color: #fff;
+
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding: 4px 10px;
+
+  font-size: 15px;
+
+  margin-bottom: 30px;
+}
+
+.inputarea button{
+  height: 45px;
+  width: 180px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #B00020;
+  color: white;
+  border-radius: 10px;
+  padding: 4px 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.inputarea button:hover{
+  background-color: white;
+  color: #B00020;
+  border-radius: 10px;
+  border: 1px solid #B00020;
+}
+
+.outputarea{
+  /* height: 60vh; */
+  width: 90%;
+  /* background-color: #E1FFB1; */
+  display: flex;
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.bioniccontentarea{
+  /* width: 1000px; */
+  /* background-color: #61dafb; */
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  padding: 20px 10px;
+  text-align: justify;
+  color: #334155;
+}
+
+
+/* -------------------------Mobile Responsive------------------------------- */
+
+@media only screen and (max-width: 600px) {
+
+  .header{
+    width: 100%;
+    height: 30vh;
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #B00020;
+  }
+
+  .heading{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heading h1{
+    color: #fff;
+    font-size: 50px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .didyouknow{
+    width: 80%;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 30px;
+  
+  }
+  
+  .didyouknow h1{
+    color: #B00020;
+    font-size: 20px;
+  
+    margin-bottom: 20px;
+  }
+  
+  .didyouknow p{
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+  
+    color: #334155;
+  
+    font-family: 'Poppins', sans-serif;
+  
+    font-weight: 400;
+  }
+
+  .bulb h1{
+    margin-top: -30px;
+    font-size: 50px;
+  }
+
+.main{
+  height: 100vh;
+  width: 100%;
+
+  /* background-color: #B8E8FC; */
+  background-color: #B00020;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainabout{
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 10px; */
+}
+
+.mainaboutinside{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+}
+
+
+.mainaboutinside h1{
+  /* color: #B00020; */
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
+.mainabout p{
+  /* color: #000; */
+  /* color: #1e2422; */
+  /* color: #F8FFDB; */
+  color: #fef9c3;
+  text-align: justify;
+
+  font-size: 11px;
+  padding: 10px 10px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainimg{
+  margin-top: 15px;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.bionicimg{
+  /* margin-top: 12px; */
+  width: 300px;
+  /* height: 360px; */
+  height: 170px;
+  border: 3px solid white;
+}
+
+.mainimg img{
+  border-radius: 5px;
+}
+
+.workingsection{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  background-color: #fff;
+}
+
+.inputarea{
+  height: 40vh;
+  width: 100%;
+  /* background-color: #61dafb; */
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputarea h1{
+  color: #B00020;
+  margin-bottom: 30px;
+  font-size: 25px;
+  padding: 2px 4px;
+}
+
+.inputarea input{
+  height: 50px;
+  width: 300px;
+  background-color: #fff;
+
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding: 4px 10px;
+
+  font-size: 15px;
+
+  margin-bottom: 30px;
+}
+
+.inputarea button{
+  height: 45px;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #B00020;
+  color: white;
+  border-radius: 10px;
+  padding: 4px 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.inputarea button:hover{
+  background-color: white;
+  color: #B00020;
+  border-radius: 10px;
+  border: 1px solid #B00020;
+}
+
+.outputarea{
+  /* height: 60vh; */
+  width: 90%;
+  /* background-color: #E1FFB1; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.bioniccontentarea{
+  /* width: 1000px; */
+  /* background-color: #61dafb; */
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  padding: 20px 10px;
+  text-align: justify;
+  color: #334155;
+}
+
+}
